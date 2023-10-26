@@ -1,0 +1,53 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  position: relative;
+  width: 100%;
+  min-height: 100vh;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: url("data:image/jpeg;base64,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");
+  background-size: cover;
+  background-position: center;
+  font-family: "roboto", sans-serif;
+}
+.container {
+  position: relative;
+
+  width: 90%;
+
+  height: 87vh;
+
+  border: 5px solid #fff;
+  display: flex;
+
+  justify-content: center;
+
+  align-items: center;
+}
+.logout {
+  position: absolute;
+  top: 10px;
+  right: 0;
+  padding: 10px 20px;
+  text-transform: capitalize;
+  font-size: 16px;
+  color: #fff;
+  background: none;
+  text-decoration: underline;
+  cursor: pointer;
+  outline: none;
+  border: none;
+}
+.greeting {
+  font-family: "dosis";
+  font-size: 100px;
+  color: ■ #fff;
+  font-weight: 800;
+  text-transform: capitalize;
+}
